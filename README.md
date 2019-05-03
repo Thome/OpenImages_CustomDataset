@@ -4,7 +4,9 @@ A data preprocessing script for creating your own custom dataset out of OpenImag
 [OpenImages](https://storage.googleapis.com/openimages/web/index.html) is an extensive dataset made by google. I have arranged this simple script for those interested in assembling your own dataset, as a subset from OpenImages. As default, I use a subset called BodyParts (BP), but the classes, the split of train/test images, can easily be switched out for what you want.
 
 1- Download [train-annotations-bbox.csv](https://storage.googleapis.com/openimages/2018_04/train/train-annotations-bbox.csv) into this repository
+
 2- Edit the Jupyter Notebook script's parameters to suit your needs
+
 3- Run the script
 
 Assuming you use the default parameters, you'll end with your directories and files looking like this:
